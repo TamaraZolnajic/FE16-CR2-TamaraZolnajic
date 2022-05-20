@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding:0;
+}
+
+.logo{
+    font-family: 'Great Vibes', cursive;
+    font-size: 200%;  
+}
+/*.search-button{
+    width: 12%;
+    border: none;
+    background-color: white;
+}*/
+.search-field {
+    border: 1px solid black;
+    width: 80%;
+    outline: none;
+    font-size: 1rem;
+}
+  
+.search-button {
+    border: 1px solid black;
+    background: transparent;
+    outline: none;
+    margin-left: -33px;
+}
+  
+.search-button img {
+    width: 30px;
+    height: 20px;
+    object-fit: cover;
+}
+nav{
+    width: 100%;
+    height: 10%;
+    padding: 5px 5px 5px 5px;
+}
+.top-nav{
+    width: 100%;
+    height: 10%;
+    background-color:white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom_nav {
+    width: 100%;
+    padding:0;
+    margin: 0;
+}
+.nav-list {
+    width: 90%;
+    height: 10%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    font-size: 100%;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.container{
+    margin:1% auto 0 auto;
+    text-align: center;
+    width: 70%;
+    height:150vh;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+p{
+    background-color:black;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+.grid-items{
+    border-radius: 5px;
+    height: 100%;
+}
+.grid-item1{
+    background-image: url(pics/eggs-salad.avif);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.grid-item2{
+    background-image: url(pics/cheeseburger.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.grid-item3{
+    background-image: url(pics/pizza.avif);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.grid-item4{
+    background-image: url(pics/pancakes.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.grid-item5{
+    background-image: url(pics/pasta.avif);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.grid-item6{
+    background-image: url(pics/eggs-salad.avif);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.grid-item7{
+    background-image: url(pics/oatmeal.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.grid-item8{
+    background-image: url(pics/red-velvet.avif);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.grid-item9{
+    background-image: url(pics/eggs-salad.avif);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
