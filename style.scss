@@ -15,24 +15,30 @@ body {
 	margin: 0;
 	padding: 0;
 }
-.form-search {
-	padding:0;
-}
-.text {
-	width: 60%;
-	padding: 5px;
-	text-align: center;
-	font-family: $font-family_1;
+.search-container{
+	width: 90%;
+	text-align: end;
+  }
+  
+input#search-bar{
+	width: 30%;
 	font-size: 1vw;
+	outline: none;
+	font-family: 'Times New Roman', Times, serif;
+	text-align: center;
 	border: none;
+	&:focus{
+	  border: 1px solid $color_1;
+	  transition: 0.35s ease;
+	}   
 }
-.magnifier {
-	width: 1%;
-	height: 2%;
-	position: absolute;
-	margin-top: 1%;
-	margin-left: 1%;
+
+  
+.search-icon{
+	width: 6%;
+	height: 6%;
 }
+  
 .logo {
 	font-family: $font-family_2;
 	font-size: 3vw;
