@@ -226,6 +226,14 @@ footer {
         grid-template-rows: repeat(5, 1fr);
     margin: 3% auto 3% auto;
   }
+  .nav-list {
+    width: 100%;
+    margin: auto;
+    -ms-grid-rows: (1fr)[2];
+        grid-template-rows: repeat(2, 1fr);
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 @media screen and (min-width: 769px) {
