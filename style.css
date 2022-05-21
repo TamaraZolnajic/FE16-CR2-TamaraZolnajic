@@ -96,7 +96,7 @@ input#search-bar:focus {
 }
 
 .container {
-  margin: 2% auto 3% auto;
+  margin: 5% auto 5% auto;
   text-align: center;
   width: 70%;
   height: 100%;
@@ -111,8 +111,7 @@ input#search-bar:focus {
 
 img {
   width: 100%;
-  height: 100%;
-  border-radius: 5%;
+  height: 95%;
 }
 
 .grid-item {
@@ -146,9 +145,10 @@ footer {
   background-color: black;
   height: 20%;
   width: 100%;
-  padding: 3px;
+  padding: 1%;
   text-align: center;
   font-size: 1vw;
+  margin-bottom: 0;
 }
 
 .footer-nav-list {
@@ -208,6 +208,8 @@ footer {
         grid-template-columns: repeat(1, 1fr);
     -ms-grid-rows: (1fr)[9];
         grid-template-rows: repeat(9, 1fr);
+    margin: auto auto 50% auto;
+    padding: 0 0;
   }
   .card-food {
     font-size: 2vw;
@@ -228,7 +230,7 @@ footer {
         grid-template-columns: repeat(2, 1fr);
     -ms-grid-rows: (1fr)[5];
         grid-template-rows: repeat(5, 1fr);
-    margin: 3% auto 3% auto;
+    margin: 3% auto 8% auto;
   }
   .nav-list {
     width: 100%;
